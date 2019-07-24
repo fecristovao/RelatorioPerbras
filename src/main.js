@@ -4,7 +4,6 @@ import router from './router'
 import store from './store'
 import Materialize from 'materialize-css'
 
-
 Vue.use(Materialize)
 
 Vue.config.productionTip = false
