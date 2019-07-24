@@ -24,7 +24,7 @@
 }
 
 .azul {
-    background-color: #69afbf4d;
+    background-color: #69AFBF;
 }
 
 #desktable th {
@@ -54,8 +54,3 @@
     border-radius: 50%;
     display: inline-block;
   }
-
-table.centered thead tr th, table.centered tbody tr td {
-    text-align: center;
-    border: 1px solid #69afbf47;
-}
