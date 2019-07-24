@@ -1,0 +1,60 @@
+{"medicao": [
+    {
+    "data": "21/05/2019",
+    "num": "31",
+    "sst": "801/2019",
+    "poco": "NA",
+    "sonda": "NA",
+    "serie": "10.158.746",
+    "gerencia": "RF-SCA",
+    "indice": "1.8",
+    "qtd": "10",
+    "preco": "708,07",
+    "servico": "Condicionamento de Materiais",
+    "total": "7080,700000000001"
+    },
+    {
+    "data": "21/05/2019",
+    "num": "32",
+    "sst": "801/2019",
+    "poco": "NA",
+    "sonda": "NA",
+    "serie": "10.158.746",
+    "gerencia": "RF-SCA",
+    "indice": "1.8",
+    "qtd": "5",
+    "preco": "708,07",
+    "servico": "Condicionamento de Materiais",
+    "total": "3540,3500000000004"
+    },
+    {
+    "data": "21/05/2019",
+    "num": "38",
+    "sst": "801/018",
+    "poco": "NA",
+    "sonda": "NA",
+    "serie": "10.158.746",
+    "gerencia": "RF-SCA",
+    "indice": "1.8",
+    "qtd": "5",
+    "preco": "708,07",
+    "servico": "Condicionamento de Materiais",
+    "total": "3540,3500000000004"
+    },
+    {
+    "data": "21/05/2019",
+    "num": "47",
+    "sst": "N/A",
+    "poco": "0001",
+    "sonda": "AL-01",
+    "serie": "10.106.797  / 10.157.590",
+    "gerencia": "RF-SP",
+    "indice": "2.3",
+    "qtd": "2",
+    "preco": "74,52",
+    "servico": "VIMES – Verificação e Inspeção de Materiais Egressos de sondas",
+    "total": "149,04"
+    }
+]
+
+}
