@@ -61,6 +61,12 @@
 
      created() {
         document.title = "Relatório do Mês de "+this.$route.params.mes
+
+      /*
+         Pega as configurações
+
+         axios.get(urls)...
+      */
      }
    }
 </script>
