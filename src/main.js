@@ -2,6 +2,12 @@ import Vue from 'vue'
 import App from './App.vue'
 import router from './router'
 import store from './store'
+import Materialize from 'materialize-css'
+import {$, jQuery} from 'jquery'
+
+Vue.use(Materialize)
+
+
 
 Vue.config.productionTip = false
 
