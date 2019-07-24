@@ -5,7 +5,13 @@
             <Tabela classe="responsive-table striped hide-on-large-only" :categoria="cat" v-show="cat.ativo"></Tabela>
             <Tabela classe="centered striped hide-on-med-and-down" :categoria="cat" v-show="cat.ativo"></Tabela>
         </div>
+        <div class="fixed-action-btn">
+            <a class="btn-floating btn-small blue" :href="$store.getters.espelhoPrint">
+                <i class="large material-icons">local_printshop</i>
+            </a>
+      </div>
     </div>
+
 </template>
 
 <script>
