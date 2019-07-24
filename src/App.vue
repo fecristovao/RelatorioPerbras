@@ -56,6 +56,11 @@
      mounted() {
        var elems = document.querySelectorAll('.sidenav');
        var instances = M.Sidenav.init(elems, {});
+       
+     },
+
+     created() {
+        document.title = "Relatório do Mês de "+this.$route.params.mes
      }
    }
 </script>
