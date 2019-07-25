@@ -41,13 +41,26 @@
                         <td>{{ item.Saldo }}</td>
                         <td>R$ {{ FloatToReais(item.SaldoRS) }}</td>
                         <td>{{ FloatToReais(item.Valor) }}</td>
-                        <td>{{ item.MediaPPU }}</td>
+                        <td>{{ FloatToReais(item.MediaPPU) }}</td>
                         <td>{{ FloatToReais(ReaisToFloat(item.MediaValor)) }}</td>
                         <td>{{ FloatToReais(ReaisToFloat(item.DistribuicaoPPU)*100) }} %</td>
                         <td>{{ FloatToReais(ReaisToFloat(item.DistribuicaoValor)*100) }} %</td>
                         <td :class="corMes(item)">
                             {{ meses(item) }}
                         </td>
+                    </tr>
+                    <tr class="total">
+                        <td></td>
+                        <td></td>
+                        <td>{{ FloatToReais(soma('PPU')) }}</td>
+                        <td>{{ FloatToReais(soma('Saldo')) }}</td>
+                        <td>R$ {{ FloatToReais(soma('SaldoRS')) }}</td>
+                        <td>{{ FloatToReais(soma('Valor')) }}</td>
+                        <td>{{ FloatToReais(soma('MediaPPU')) }}</td>
+                        <td>{{ FloatToReais(soma('MediaValor')) }}</td>
+                        <td>{{ FloatToReais(soma('DistribuicaoPPU')*100) }} %</td>
+                        <td>{{ FloatToReais(soma('DistribuicaoValor')*100) }} %</td>
+                        <td></td>
                     </tr>
                 </tbody>
         </table>
@@ -69,6 +82,14 @@ export default {
         }
     },
     methods: {
+        soma(campo) {
+            var total = 0.0
+            var i
+            for(i=0;i<this.controle.length;i++) {
+                total += this.ReaisToFloat(this.controle[i][campo])
+            }
+            return total
+        },
         saldo(item) {
             var ppu = this.ReaisToFloat(item.PPU)
             var ppuTotal = this.ReaisToFloat(item.PPUTotal)
@@ -122,6 +143,10 @@ export default {
 
     .bverde {
         background-color: green;
+    }
+
+    .total {
+        font-weight: bold;
     }
 </style>
 
