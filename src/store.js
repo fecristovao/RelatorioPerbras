@@ -18,7 +18,11 @@ export default new Vuex.Store({
     }
   },
   mutations: {
-    
+    pegarDados(state) {
+      axios.get(state.config.controle).then(resposta => {
+        state.dados.controle = resposta.data
+      }) 
+    }
   },
   actions: {
 

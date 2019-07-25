@@ -1,7 +1,7 @@
 <template>
     <div id="controle" class="row">
-        <Tabela classe="desktop" :controle="controle" v-if="controle"></Tabela>
-        <Tabela classe="mobile" :controle="controle" v-if="controle"></Tabela>
+        <Tabela classe="desktop" :controle="$store.getters.controle"></Tabela>
+        <Tabela classe="mobile" :controle="$store.getters.controle"></Tabela>
     </div>
 </template>
 
@@ -13,18 +13,9 @@ export default {
 
     data() {
         return {
-            controle: []
+            
         }
     },
-   mounted() {
-        
-      axios.get(this.$store.getters.controleURL).then(resposta => {
-        this.controle = resposta.data
-        console.log(resposta)
-      }) 
-        var elems = document.querySelectorAll('.tooltipped')
-        var instances = M.Tooltip.init(elems, {})
-    }
     
 }
 </script>
