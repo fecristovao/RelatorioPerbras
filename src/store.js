@@ -8,7 +8,8 @@ export default new Vuex.Store({
     config: {
       espelho: "http://localhost:3000/categorias",
       espelhoPrint: "espelho.rule?sys=MDC&mes=10&contrato=1",
-      medicao: "http://localhost:3000/medicao"
+      medicao: "http://localhost:3000/medicao",
+      controle: "http://127.0.0.1:3000/controle",
     }
   },
   mutations: {
@@ -28,6 +29,10 @@ export default new Vuex.Store({
 
     medicaoURL(state) {
       return state.config['medicao']
+    },
+
+    controleURL(state) {
+      return state.config['controle']
     }
   }
 })
