@@ -1,6 +1,6 @@
 <template>
     <div>
-        <table :class="classe">
+        <table class="centered highlight hide-on-med-and-down" v-if="classe == 'desktop'">
             <thead>
                     <tr>
                         <th colspan="1">Indice</th>
@@ -61,6 +61,62 @@
                         <td>{{ FloatToReais(soma('DistribuicaoPPU')*100) }} %</td>
                         <td>{{ FloatToReais(soma('DistribuicaoValor')*100) }} %</td>
                         <td></td>
+                    </tr>
+                </tbody>
+        </table>
+
+        <table class="responsive-table hide-on-large-only" v-if="classe == 'mobile'">
+                <thead>
+                    <tr>
+                        <th>Indice</th>
+                        <th>Saldo</th>
+                        <th>PPU Total</th>
+                        <th>Saldo Total</th>
+                        <th>Saldo R$</th>
+                        <th>Valor Total</th>
+    
+                        <th>Média PPU</th>
+                        <th>Média Valor</th>
+    
+                        <th>Distribuição PPU</th>
+                        <th>Distribuição Valor</th>
+    
+                        <th>Tempo</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr v-for="(item,i) in controle" :key="i">
+                        <td>{{ item.Indice }}</td>
+                        <td>
+                            <span class="dot verde" v-if="saldo(item) >= 60"></span>
+                            <span class="dot amarelo" v-if="saldo(item) < 60 && item.saldoi >= 40"></span>
+                            <span class="dot vermelho" v-if="saldo(item) < 40 && item.saldoi >= 20"></span>
+                            <span class="dot cinza" v-if="saldo(item) < 20"></span>
+                            {{ saldo(item) }}%
+                        </td>
+                        <td>{{ item.PPU }}</td>
+                        <td>{{ item.Saldo }}</td>
+                        <td>R$ {{ FloatToReais(item.SaldoRS) }}</td>
+                        <td>{{ FloatToReais(item.Valor) }}</td>
+                        <td>{{ FloatToReais(item.MediaPPU) }}</td>
+                        <td>{{ FloatToReais(ReaisToFloat(item.MediaValor)) }}</td>
+                        <td>{{ FloatToReais(ReaisToFloat(item.DistribuicaoPPU)*100) }} %</td>
+                        <td>{{ FloatToReais(ReaisToFloat(item.DistribuicaoValor)*100) }} %</td>
+                        <td :class="corMes(item)">
+                            {{ meses(item) }}
+                        </td>
+                    </tr>
+                    <tr class="total">
+                        <td></td>
+                        <td></td>
+                        <td>{{ FloatToReais(soma('PPU')) }}</td>
+                        <td>{{ FloatToReais(soma('Saldo')) }}</td>
+                        <td>R$ {{ FloatToReais(soma('SaldoRS')) }}</td>
+                        <td>{{ FloatToReais(soma('Valor')) }}</td>
+                        <td>{{ FloatToReais(soma('MediaPPU')) }}</td>
+                        <td>{{ FloatToReais(soma('MediaValor')) }}</td>
+                        <td>{{ FloatToReais(soma('DistribuicaoPPU')*100) }} %</td>
+                        <td>{{ FloatToReais(soma('DistribuicaoValor')*100) }} %</td>
                     </tr>
                 </tbody>
         </table>
