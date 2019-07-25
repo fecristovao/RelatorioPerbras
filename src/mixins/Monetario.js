@@ -1,6 +1,7 @@
 export default {
 	methods: {
 		ReaisToFloat(reais) {
+			reais = reais.toString();
 			return parseFloat(reais.replace('.', '').replace(',', '.'));
 		},
 		
@@ -10,6 +11,7 @@ export default {
 			var inteira;
 			var slice;
 			var i;
+			numero = numero.toString().replace(',','.')
 			
 			numero = parseFloat(numero)
 			numero = numero.toFixed(2)
