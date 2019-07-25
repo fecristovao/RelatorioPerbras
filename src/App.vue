@@ -53,7 +53,7 @@
    
      },
      
-     mounted() {
+    async mounted() {
       this.$store.commit('pegarDados')
        var elems = document.querySelectorAll('.sidenav');
        var instances = M.Sidenav.init(elems, {});      

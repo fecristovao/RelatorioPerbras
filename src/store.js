@@ -11,12 +11,14 @@ export default new Vuex.Store({
       espelho: "http://localhost:3000/categorias",
       espelhoPrint: "espelho.rule?sys=MDC&mes=10&contrato=1",
       medicao: "http://localhost:3000/medicao",
-      controle: "http://127.0.0.1:3000/controle"
+      controle: "http://127.0.0.1:3000/controle",
+      grafico: "http://127.0.0.1:3000/grafico1"
     },
     dados: {
       controle: [],
       medicao: [],
       espelho: [],
+      graficos: []
     }
   },
   mutations: {
@@ -32,6 +34,10 @@ export default new Vuex.Store({
       axios.get(state.config.medicao).then(resposta => {
         state.dados.medicao = resposta.data
       }) 
+
+      axios.get(state.config.grafico).then(resposta => {
+        state.dados.graficos = resposta.data
+      }) 
     }
   },
   actions: {
@@ -42,12 +48,19 @@ export default new Vuex.Store({
     controle(state) {
       return state.dados.controle
     },
+
     espelho(state) {
       return state.dados.espelho
     },
+
     medicao(state) {
       return state.dados.medicao
     },
+
+    grafico(state) {
+      return state.dados.graficos
+    },
+
     espelhoURL(state) {
       return state.config['espelho']
     },
@@ -62,6 +75,10 @@ export default new Vuex.Store({
 
     controleURL(state) {
       return state.config['controle']
+    },
+
+    graficoURL(state) {
+      return state.config['grafico']
     }
   }
 })

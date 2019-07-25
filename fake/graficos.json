@@ -1,0 +1,190 @@
+{
+    "grafico1": [
+        {
+          "Inicio": "2019-05-21",
+          "DataMedicao": "2019-05-21",
+          "Diario": "18356,6889",
+          "DiferencaDias": 30
+        },
+        {
+          "Inicio": "2019-05-21",
+          "DataMedicao": "2019-05-22",
+          "Diario": "25408,07462",
+          "DiferencaDias": 30
+        },
+        {
+          "Inicio": "2019-05-21",
+          "DataMedicao": "2019-05-23",
+          "Diario": "19094,36052",
+          "DiferencaDias": 30
+        },
+        {
+          "Inicio": "2019-05-21",
+          "DataMedicao": "2019-05-24",
+          "Diario": "16089,12",
+          "DiferencaDias": 30
+        },
+        {
+          "Inicio": "2019-05-21",
+          "DataMedicao": "2019-05-25",
+          "Diario": "21230,22",
+          "DiferencaDias": 30
+        },
+        {
+          "Inicio": "2019-05-21",
+          "DataMedicao": "2019-05-26",
+          "Diario": "21266,56",
+          "DiferencaDias": 30
+        },
+        {
+          "Inicio": "2019-05-21",
+          "DataMedicao": "2019-05-27",
+          "Diario": "40706,76022",
+          "DiferencaDias": 30
+        },
+        {
+          "Inicio": "2019-05-21",
+          "DataMedicao": "2019-05-28",
+          "Diario": "30127,70766",
+          "DiferencaDias": 30
+        },
+        {
+          "Inicio": "2019-05-21",
+          "DataMedicao": "2019-05-29",
+          "Diario": "40986,88756",
+          "DiferencaDias": 30
+        },
+        {
+          "Inicio": "2019-05-21",
+          "DataMedicao": "2019-05-30",
+          "Diario": "8690,07318",
+          "DiferencaDias": 30
+        },
+        {
+          "Inicio": "2019-05-21",
+          "DataMedicao": "2019-05-31",
+          "Diario": "53447,74",
+          "DiferencaDias": 30
+        },
+        {
+          "Inicio": "2019-05-21",
+          "DataMedicao": "2019-06-01",
+          "Diario": "18594,43",
+          "DiferencaDias": 30
+        },
+        {
+          "Inicio": "2019-05-21",
+          "DataMedicao": "2019-06-02",
+          "Diario": "22766,11",
+          "DiferencaDias": 30
+        },
+        {
+          "Inicio": "2019-05-21",
+          "DataMedicao": "2019-06-03",
+          "Diario": "23537,89",
+          "DiferencaDias": 30
+        },
+        {
+          "Inicio": "2019-05-21",
+          "DataMedicao": "2019-06-04",
+          "Diario": "19702,78",
+          "DiferencaDias": 30
+        },
+        {
+          "Inicio": "2019-05-21",
+          "DataMedicao": "2019-06-05",
+          "Diario": "14267,06",
+          "DiferencaDias": 30
+        },
+        {
+          "Inicio": "2019-05-21",
+          "DataMedicao": "2019-06-06",
+          "Diario": "22901,65",
+          "DiferencaDias": 30
+        },
+        {
+          "Inicio": "2019-05-21",
+          "DataMedicao": "2019-06-07",
+          "Diario": "33620,32",
+          "DiferencaDias": 30
+        },
+        {
+          "Inicio": "2019-05-21",
+          "DataMedicao": "2019-06-08",
+          "Diario": "14310,33",
+          "DiferencaDias": 30
+        },
+        {
+          "Inicio": "2019-05-21",
+          "DataMedicao": "2019-06-09",
+          "Diario": "19968,9",
+          "DiferencaDias": 30
+        },
+        {
+          "Inicio": "2019-05-21",
+          "DataMedicao": "2019-06-10",
+          "Diario": "15328,57",
+          "DiferencaDias": 30
+        },
+        {
+          "Inicio": "2019-05-21",
+          "DataMedicao": "2019-06-11",
+          "Diario": "28454,14",
+          "DiferencaDias": 30
+        },
+        {
+          "Inicio": "2019-05-21",
+          "DataMedicao": "2019-06-12",
+          "Diario": "25745,27",
+          "DiferencaDias": 30
+        },
+        {
+          "Inicio": "2019-05-21",
+          "DataMedicao": "2019-06-13",
+          "Diario": "10848,94",
+          "DiferencaDias": 30
+        },
+        {
+          "Inicio": "2019-05-21",
+          "DataMedicao": "2019-06-14",
+          "Diario": "22627,39",
+          "DiferencaDias": 30
+        },
+        {
+          "Inicio": "2019-05-21",
+          "DataMedicao": "2019-06-15",
+          "Diario": "21171,48",
+          "DiferencaDias": 30
+        },
+        {
+          "Inicio": "2019-05-21",
+          "DataMedicao": "2019-06-16",
+          "Diario": "139632,68",
+          "DiferencaDias": 30
+        },
+        {
+          "Inicio": "2019-05-21",
+          "DataMedicao": "2019-06-17",
+          "Diario": "32344,88",
+          "DiferencaDias": 30
+        },
+        {
+          "Inicio": "2019-05-21",
+          "DataMedicao": "2019-06-18",
+          "Diario": "24734,35",
+          "DiferencaDias": 30
+        },
+        {
+          "Inicio": "2019-05-21",
+          "DataMedicao": "2019-06-19",
+          "Diario": "7790,63",
+          "DiferencaDias": 30
+        },
+        {
+          "Inicio": "2019-05-21",
+          "DataMedicao": "2019-06-20",
+          "Diario": "1970,74",
+          "DiferencaDias": 30
+        }
+      ]
+}
