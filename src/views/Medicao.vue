@@ -13,15 +13,15 @@ export default {
     components: {Tabela},
     data() {
         return {
-            medicao: []
+
         }
     },
-
-    async mounted() {
-        axios.get(this.$store.getters.medicaoURL).then(resposta => {
-            this.medicao = resposta.data
-        })
+    computed: {
+        medicao() {
+            return this.$store.getters.medicao
+        }
     }
+
 }
 </script>
 

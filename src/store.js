@@ -14,13 +14,23 @@ export default new Vuex.Store({
       controle: "http://127.0.0.1:3000/controle"
     },
     dados: {
-      controle: []
+      controle: [],
+      medicao: [],
+      espelho: [],
     }
   },
   mutations: {
     pegarDados(state) {
       axios.get(state.config.controle).then(resposta => {
         state.dados.controle = resposta.data
+      }) 
+
+      axios.get(state.config.espelho).then(resposta => {
+        state.dados.espelho = resposta.data
+      }) 
+
+      axios.get(state.config.medicao).then(resposta => {
+        state.dados.medicao = resposta.data
       }) 
     }
   },
@@ -31,6 +41,12 @@ export default new Vuex.Store({
   getters: {
     controle(state) {
       return state.dados.controle
+    },
+    espelho(state) {
+      return state.dados.espelho
+    },
+    medicao(state) {
+      return state.dados.medicao
     },
     espelhoURL(state) {
       return state.config['espelho']
