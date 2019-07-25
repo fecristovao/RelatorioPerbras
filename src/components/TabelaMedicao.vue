@@ -76,3 +76,9 @@
            }
       }
 </script>
+
+<style scoped>
+   th {
+      text-align: center;
+   }
+</style>
