@@ -7,18 +7,24 @@
         Contrato: {{ $route.params.contrato }}
 
         <br>
-        <Projecao></Projecao>
+        <Projecao :dados="dados"></Projecao>
     </div>
 </template>
 
 <script>
 import Projecao from '@/components/GraficoProjecao.vue'
+import axios from 'axios'
 export default {
     components: {Projecao},
     data() {
         return {
-
+            dados: []
         }
+    },
+    mounted() {
+        axios.get(this.$store.getters.graficoURL).then(resposta => {
+            this.dados = resposta.data
+        })
     }
 }
 </script>

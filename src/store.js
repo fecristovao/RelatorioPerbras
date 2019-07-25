@@ -26,14 +26,6 @@ export default new Vuex.Store({
       axios.get(state.config.controle).then(resposta => {
         state.dados.controle = resposta.data
       }) 
-
-      axios.get(state.config.medicao).then(resposta => {
-        state.dados.medicao = resposta.data
-      }) 
-
-      axios.get(state.config.grafico).then(resposta => {
-        state.dados.graficos = resposta.data
-      }) 
     }
   },
   actions: {
