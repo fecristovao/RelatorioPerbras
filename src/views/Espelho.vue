@@ -26,11 +26,16 @@ export default {
             categorias: []
         }
     },
+    computed: {
+        dados() {
+            return this.$store.getters.espelho
+        }
+    },
 
-    async mounted() {
-        axios.get(this.$store.getters.espelhoURL).then(resposta => {
-            this.categorias = resposta.data
-        })
+    watch: {
+        dados(val) {
+            this.categorias = val
+        }
     }
 }
 </script>
