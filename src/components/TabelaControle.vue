@@ -185,7 +185,7 @@ export default {
 
         }
     },
-    mounted() {
+    async mounted() {
         var elems = document.querySelectorAll('.tooltipped')
         var instances = M.Tooltip.init(elems, {})
     }
