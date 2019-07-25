@@ -27,10 +27,6 @@ export default new Vuex.Store({
         state.dados.controle = resposta.data
       }) 
 
-      axios.get(state.config.espelho).then(resposta => {
-        state.dados.espelho = resposta.data
-      }) 
-
       axios.get(state.config.medicao).then(resposta => {
         state.dados.medicao = resposta.data
       }) 

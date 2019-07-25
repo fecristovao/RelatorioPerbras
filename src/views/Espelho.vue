@@ -23,14 +23,13 @@ export default {
     },
     data() {
         return {
-   
+            categorias: []
         }
     },
-
-    computed: {
-        categorias() {
-            return this.$store.getters.espelho
-        }
+    mounted() {
+        axios.get(this.$store.getters.espelhoURL).then(resposta => {
+            this.categorias = resposta.data
+        })     
     }
 }
 </script>
