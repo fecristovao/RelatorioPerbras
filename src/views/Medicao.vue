@@ -1,6 +1,7 @@
 <template>
     <div id="medicao" class="row">
         <Tabela classe="centered striped hide-on-med-and-down" :medicao="medicao"></Tabela>
+        <Tabela classe="responsive-table striped hide-on-large-only" :medicao="medicao"></Tabela>
     </div>
 </template>
 

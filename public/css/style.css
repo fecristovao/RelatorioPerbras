@@ -54,3 +54,7 @@
     border-radius: 50%;
     display: inline-block;
   }
+
+#medicao th {
+    text-align: center;
+}
