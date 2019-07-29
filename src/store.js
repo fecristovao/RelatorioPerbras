@@ -8,11 +8,11 @@ import axios from 'axios'
 export default new Vuex.Store({
   state: {
     config: {
-      espelho: "http://localhost:3000/categorias",
+      espelho: "https://api.myjson.com/bins/v9hgp",
       espelhoPrint: "espelho.rule?sys=MDC&mes=10&contrato=1",
-      medicao: "http://localhost:3000/medicao",
-      controle: "http://127.0.0.1:3000/controle",
-      grafico: "http://127.0.0.1:3000/grafico1"
+      medicao: "https://api.myjson.com/bins/11t949",
+      controle: "https://api.myjson.com/bins/16kpyh",
+      grafico: "https://api.myjson.com/bins/qi0mh"
     },
     dados: {
       controle: [],
