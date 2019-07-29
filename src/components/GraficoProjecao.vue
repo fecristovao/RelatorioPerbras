@@ -8,7 +8,6 @@
 
 <script>
 import Chart from 'chart.js'
-import { generateChart } from 'vue-chartjs'
 import Monetario from '@/mixins/Monetario.js'
 import {det, lusolve } from 'mathjs'
 
