@@ -7,6 +7,9 @@ export default {
         var inicio = new Date(val[0].Inicio+"T00:00:00-03:00")
         var diferenca = val[0].DiferencaDias
         
+        dados['orcado'] = this.ReaisToFloat(val[0].Orcado)
+        dados['fator'] = val[0].Fator
+
         for(i=0;i<=diferenca;i++) {
             dias[i] = inicio.getDate()
             inicio.setDate(dias[i]+1)
