@@ -1,14 +1,16 @@
 <template>
-    <div>
-        View: Graficos
-        <br>
-        Mes: {{ $route.params.mes }}
-        <br>
-        Contrato: {{ $route.params.contrato }}
-
-        <br>
-        <!--<Projecao :dados="dados"></Projecao>-->
-       <Diario :dados="dados"></Diario>
+    <div id="graficos">
+        <div class="row">
+            <div class="col offset-l1 s12 m10 offset-m1">
+                <Projecao :dados="dados"></Projecao>
+            </div>
+            <div class="show-on-medium-and-up row" style="margin-bottom: 5% !important;"></div>
+            <div class="col s12 m10 offset-m1"> 
+                <Diario :dados="dados"></Diario>
+            </div>
+        </div>
+        
+       
     </div>
 </template>
 
@@ -30,4 +32,11 @@ export default {
     }
 }
 </script>
+
+<style scoped>
+    .grafico {
+        
+    }
+</style>
+
 

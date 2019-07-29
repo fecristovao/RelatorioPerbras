@@ -1,8 +1,5 @@
 <template>
-	<div>
-		{{ x }}
-		<br>
-		{{ diario }}
+	<div class="grafico">
 		<canvas id="graficoProjecao" ref="myChart"></canvas>
 	</div>
 </template>
@@ -302,8 +299,6 @@
 	}
 </script>
 <style scoped>
-	div {
-	width: 75%;
-	}
+
 </style>
 
