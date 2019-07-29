@@ -1,29 +1,28 @@
-# novorelatorio
+# Relatório de Medição da Perbras
 
-## Project setup
-```
+Este projeto é a refatoração do relatório do sistema de medição da Perbras. O frontend (esta), foi feito em Vue e o backend feito no Maker.
+
+Nesta forma, a página feita em Vue será estática e servida direto pelo Tomcat (Pasta Maker.commons), enquanto o Maker serivirá como servidor de API, apenas, deixando de tratar a página estática também.
+
+## Executando
+Para rodar o ambiente de desenvolvimento, basta após clonar o repositório, executar:
+
 npm install
-```
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+### Ambiente de Desenvolvimento
 
-### Compiles and minifies for production
-```
+Para rodar no ambiente de desenvolvimento
+
+npm run dev
+
+Na pasta "fake", se encontra os modelos da API, como serão servidas. Para emular basta executar:
+
+json-server api.json
+
+## Compilando para produção
+
+Após editar o arquivo "vue.config.js" como o path da pasta do servidor, basta executar o comando:
+
 npm run build
-```
 
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Após isso, basta copiar a pasta "dist" e colar na pasta do Tomcat (Maker.commons)
