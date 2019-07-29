@@ -29,6 +29,11 @@ export default new Router({
       name: 'graficos',
       component: Graficos
     },
+    {
+      path: '/mes/:mes/contrato/:contrato',
+      name: 'index',
+      component: Espelho
+    }
 
   ]
 })

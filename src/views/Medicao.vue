@@ -20,6 +20,7 @@ export default {
         axios.get(this.$store.getters.medicaoURL).then(resposta => {
             this.medicao = resposta.data
         }) 
+        window.scrollTo(0,0);
     }
 
 }

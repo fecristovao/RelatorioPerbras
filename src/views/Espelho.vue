@@ -29,7 +29,8 @@ export default {
     mounted() {
         axios.get(this.$store.getters.espelhoURL).then(resposta => {
             this.categorias = resposta.data
-        })     
+        })
+        window.scrollTo(0,0);
     }
 }
 </script>
