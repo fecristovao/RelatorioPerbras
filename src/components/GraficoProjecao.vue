@@ -1,6 +1,8 @@
 <template>
     <div>
         {{ media }}
+        <br>
+        {{ diaMedio }}
     </div>
 </template>
 
@@ -25,7 +27,8 @@ export default {
             x: [],
             diario: [],
             acumulado: [],
-            bruto: []
+            bruto: [],
+            fator: 1.0462
         }
     },
     watch: {
@@ -143,6 +146,38 @@ export default {
             }
 
             return media
+        },
+
+        diaMedio() {
+            var i
+            var media = 0.0
+            var medio = []
+            var fator = this.fator
+            for(i=0;i<this.diario.length;i++) {
+                media += this.diario[i]
+                
+            }
+            
+            media = media/this.n
+            
+            if(this.diario[0] == 0) {
+                medio[0] = media*fator
+            } else {
+                medio[0] = this.bruto[0]*fator
+            }
+
+            
+
+            for(i=1;i<this.x.length;i++) {
+               if(this.diario[i] == 0) {
+                    medio[i] = media*fator
+                } else {
+                    medio[i] = this.diario[i]*fator
+                } 
+
+                medio[i] += medio[i-1]
+            }
+            return medio
         }
     },
     methods: {
@@ -173,7 +208,7 @@ export default {
                 total += Math.pow(this.x[i],g1)*Math.pow(this.bruto[i], g2)
             }
             return total
-        }
+        },
     }
 }
 </script>
