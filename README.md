@@ -33,3 +33,9 @@ npm run build
 ```
 
 Após isso, basta copiar a pasta "dist" e colar na pasta do Tomcat (Maker.commons)
+
+## Página de exemplo
+
+Uma página estática com dados de exemplo pode ser encontrada em:
+
+https://relatorioperbras.netlify.com/#/controle/mes/1/contrato/2
