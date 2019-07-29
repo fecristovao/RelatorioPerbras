@@ -21,7 +21,6 @@ export default {
     data() {
         return {
             dadosProcessados: {},
-            fator:  1.0462,
             azul: "rgb(54, 162, 235)",
 	        amarelo: "rgb(255, 205, 86)",
 	        vermelho: "rgb(255, 99, 132)", 
@@ -45,14 +44,16 @@ export default {
         },
 
         orcado() {
-            var orcado = this.x.map(e => { return 785000 })
+            var orcado = this.x.map(e => { return this.dadosProcessados.orcado })
             orcado[this.x.length-1] = null
             orcado[this.x.length-2] = null
 
             return orcado
 
         },
-      
+        fator() {
+            return this.dadosProcessados.fator
+        },
 
         diario() {
             var diario = this.dadosProcessados.diario.map(e => { return e * this.fator })

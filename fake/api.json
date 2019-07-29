@@ -1,0 +1,1106 @@
+{
+    "controle":[
+    {
+      "Indice": 1.1,
+      "Nome": "Montagem Conexão de modulados",
+      "PPU": 231,
+      "Valor": 294063,
+      "Saldo": 2288,
+      "SaldoRS": 2912624,
+      "MediaPPU": 77,
+      "MediaValor": 98021,
+      "DistribuicaoPPU": "0,03",
+      "DistribuicaoValor": "0,19",
+      "PPUTotal": 2519,
+      "Meses": 3,
+      "SaldoPrazo": 393
+    },
+    {
+      "Indice": 1.2,
+      "Nome": "Desmontagem Desconex�o de modulados",
+      "PPU": 97,
+      "Valor": 123481,
+      "Saldo": 1163,
+      "SaldoRS": 1480499,
+      "MediaPPU": "32,33",
+      "MediaValor": "41160,33",
+      "DistribuicaoPPU": "0,01",
+      "DistribuicaoValor": "0,08",
+      "PPUTotal": 1260,
+      "Meses": 3,
+      "SaldoPrazo": 393
+    },
+    {
+      "Indice": 1.3,
+      "Nome": "Manuten��o - Packer",
+      "PPU": 0,
+      "Valor": 0,
+      "Saldo": 100,
+      "SaldoRS": 171800,
+      "MediaPPU": 0,
+      "MediaValor": 0,
+      "DistribuicaoPPU": 0,
+      "DistribuicaoValor": 0,
+      "PPUTotal": 100,
+      "Meses": 3,
+      "SaldoPrazo": 393
+    },
+    {
+      "Indice": 1.4,
+      "Nome": "Manuten��o  - TSR",
+      "PPU": 2,
+      "Valor": 7664,
+      "Saldo": 13,
+      "SaldoRS": 49816,
+      "MediaPPU": "0,67",
+      "MediaValor": "2554,67",
+      "DistribuicaoPPU": 0,
+      "DistribuicaoValor": 0,
+      "PPUTotal": 15,
+      "Meses": 3,
+      "SaldoPrazo": 393
+    },
+    {
+      "Indice": 1.5,
+      "Nome": "Manuten��o - Ferramenta de assentamento de packer (setting tool)",
+      "PPU": 0,
+      "Valor": 0,
+      "Saldo": 4,
+      "SaldoRS": "2299,2",
+      "MediaPPU": 0,
+      "MediaValor": 0,
+      "DistribuicaoPPU": 0,
+      "DistribuicaoValor": 0,
+      "PPUTotal": 4,
+      "Meses": 3,
+      "SaldoPrazo": 393
+    },
+    {
+      "Indice": 1.6,
+      "Nome": "Manuten��o - Ferramenta de recupera��o de packer (retrieving tool)",
+      "PPU": 0,
+      "Valor": 0,
+      "Saldo": 4,
+      "SaldoRS": "2299,2",
+      "MediaPPU": 0,
+      "MediaValor": 0,
+      "DistribuicaoPPU": 0,
+      "DistribuicaoValor": 0,
+      "PPUTotal": 4,
+      "Meses": 3,
+      "SaldoPrazo": 393
+    },
+    {
+      "Indice": 1.7,
+      "Nome": "Manuten��o - Sub de pressuriza��o (shear-out; hidro trip).",
+      "PPU": 1,
+      "Valor": "167,65",
+      "Saldo": 47,
+      "SaldoRS": "7879,55",
+      "MediaPPU": "0,33",
+      "MediaValor": "55,88",
+      "DistribuicaoPPU": 0,
+      "DistribuicaoValor": 0,
+      "PPUTotal": 48,
+      "Meses": 3,
+      "SaldoPrazo": 393
+    },
+    {
+      "Indice": 1.8,
+      "Nome": "Condicionamento de Materiais",
+      "PPU": 205,
+      "Valor": "145154,35",
+      "Saldo": 2219,
+      "SaldoRS": "1571207,33",
+      "MediaPPU": "68,33",
+      "MediaValor": "48384,78",
+      "DistribuicaoPPU": "0,03",
+      "DistribuicaoValor": "0,09",
+      "PPUTotal": 2424,
+      "Meses": 3,
+      "SaldoPrazo": 393
+    },
+    {
+      "Indice": 1.9,
+      "Nome": "Teste hidrost�tico",
+      "PPU": 40,
+      "Valor": "35925,2",
+      "Saldo": 600,
+      "SaldoRS": 538878,
+      "MediaPPU": "13,33",
+      "MediaValor": "11975,07",
+      "DistribuicaoPPU": "0,01",
+      "DistribuicaoValor": "0,02",
+      "PPUTotal": 640,
+      "Meses": 3,
+      "SaldoPrazo": 393
+    },
+    {
+      "Indice": 1.1,
+      "Nome": "Manuten��o em tamp�o de coluna de 2 3/8\" a 3 1/2",
+      "PPU": 17,
+      "Valor": "26291,35",
+      "Saldo": 206,
+      "SaldoRS": "318589,3",
+      "MediaPPU": "5,67",
+      "MediaValor": "8763,78",
+      "DistribuicaoPPU": 0,
+      "DistribuicaoValor": "0,02",
+      "PPUTotal": 223,
+      "Meses": 3,
+      "SaldoPrazo": 393
+    },
+    {
+      "Indice": 1.11,
+      "Nome": "Manuten��o em tamp�o de coluna de 4 1/2\" a 5 1/2\", ANM e TH",
+      "PPU": 48,
+      "Valor": "94595,52",
+      "Saldo": 302,
+      "SaldoRS": "595163,48",
+      "MediaPPU": 16,
+      "MediaValor": "31531,84",
+      "DistribuicaoPPU": "0,01",
+      "DistribuicaoValor": "0,06",
+      "PPUTotal": 350,
+      "Meses": 3,
+      "SaldoPrazo": 393
+    },
+    {
+      "Indice": 1.12,
+      "Nome": "Manuten��o em V�lvula de Reten��o para Coluna  de 2 3/8\" a 3 1/2",
+      "PPU": 23,
+      "Valor": "19056,42",
+      "Saldo": 532,
+      "SaldoRS": "440783,28",
+      "MediaPPU": "7,67",
+      "MediaValor": "6352,14",
+      "DistribuicaoPPU": 0,
+      "DistribuicaoValor": "0,01",
+      "PPUTotal": 555,
+      "Meses": 3,
+      "SaldoPrazo": 393
+    },
+    {
+      "Indice": 1.13,
+      "Nome": "Manuten��o em V�lvula de Reten��o para Coluna  de 4 1/2\" a 5 1/2",
+      "PPU": 10,
+      "Valor": "8290,4",
+      "Saldo": 198,
+      "SaldoRS": "164149,92",
+      "MediaPPU": "3,33",
+      "MediaValor": "2763,47",
+      "DistribuicaoPPU": 0,
+      "DistribuicaoValor": "0,01",
+      "PPUTotal": 208,
+      "Meses": 3,
+      "SaldoPrazo": 393
+    },
+    {
+      "Indice": 1.14,
+      "Nome": "Manuten��o em BPV (IS-A Convencional 3\" ou 4\" e H 3\")",
+      "PPU": 1,
+      "Valor": "880,78",
+      "Saldo": 25,
+      "SaldoRS": "22019,5",
+      "MediaPPU": "0,33",
+      "MediaValor": "293,59",
+      "DistribuicaoPPU": 0,
+      "DistribuicaoValor": 0,
+      "PPUTotal": 26,
+      "Meses": 3,
+      "SaldoPrazo": 393
+    },
+    {
+      "Indice": 1.15,
+      "Nome": "Manuten��o em Insert Nipple para coluna de 4 1/2\" ou 5 1/2",
+      "PPU": 6,
+      "Valor": "3772,14",
+      "Saldo": 122,
+      "SaldoRS": "76700,18",
+      "MediaPPU": 2,
+      "MediaValor": "1257,38",
+      "DistribuicaoPPU": 0,
+      "DistribuicaoValor": 0,
+      "PPUTotal": 128,
+      "Meses": 3,
+      "SaldoPrazo": 393
+    },
+    {
+      "Indice": 1.16,
+      "Nome": "Prepara��o em Mandril de Inje��o Qu�mica Bolsa Lateral de 3 1/2\" a 5 1/2",
+      "PPU": 4,
+      "Valor": "1149,6",
+      "Saldo": 8,
+      "SaldoRS": "2299,2",
+      "MediaPPU": "1,33",
+      "MediaValor": "383,2",
+      "DistribuicaoPPU": 0,
+      "DistribuicaoValor": 0,
+      "PPUTotal": 12,
+      "Meses": 3,
+      "SaldoPrazo": 393
+    },
+    {
+      "Indice": 1.17,
+      "Nome": "Prepara��o de Linha de Controle Simples, Dupla ou Tripla de 1/4\" a 3/8",
+      "PPU": 7,
+      "Valor": "5796,21",
+      "Saldo": 136,
+      "SaldoRS": "112612,08",
+      "MediaPPU": "2,33",
+      "MediaValor": "1932,07",
+      "DistribuicaoPPU": 0,
+      "DistribuicaoValor": 0,
+      "PPUTotal": 143,
+      "Meses": 3,
+      "SaldoPrazo": 393
+    },
+    {
+      "Indice": 1.18,
+      "Nome": "Preenchimento com fluido de LC com MEG e outros fluidos por bobina",
+      "PPU": 5,
+      "Valor": "3193,35",
+      "Saldo": 139,
+      "SaldoRS": "88775,13",
+      "MediaPPU": "1,67",
+      "MediaValor": "1064,45",
+      "DistribuicaoPPU": 0,
+      "DistribuicaoValor": 0,
+      "PPUTotal": 144,
+      "Meses": 3,
+      "SaldoPrazo": 393
+    },
+    {
+      "Indice": 1.19,
+      "Nome": "Manuten��o em V�lvula de Inje��o BRV, Insert�vel",
+      "PPU": 5,
+      "Valor": 2395,
+      "Saldo": 43,
+      "SaldoRS": 20597,
+      "MediaPPU": "1,67",
+      "MediaValor": "798,33",
+      "DistribuicaoPPU": 0,
+      "DistribuicaoValor": 0,
+      "PPUTotal": 48,
+      "Meses": 3,
+      "SaldoPrazo": 393
+    },
+    {
+      "Indice": 1.2,
+      "Nome": "Manuten��o em DHSV com C�mara de Nitrog�nio",
+      "PPU": 0,
+      "Valor": 0,
+      "Saldo": 20,
+      "SaldoRS": 34488,
+      "MediaPPU": 0,
+      "MediaValor": 0,
+      "DistribuicaoPPU": 0,
+      "DistribuicaoValor": 0,
+      "PPUTotal": 20,
+      "Meses": 3,
+      "SaldoPrazo": 393
+    },
+    {
+      "Indice": 1.21,
+      "Nome": "Manuten��o em DHSV sem C�mara de Nitrog�nio",
+      "PPU": 2,
+      "Valor": "2673,48",
+      "Saldo": 41,
+      "SaldoRS": "54806,34",
+      "MediaPPU": "0,67",
+      "MediaValor": "891,16",
+      "DistribuicaoPPU": 0,
+      "DistribuicaoValor": 0,
+      "PPUTotal": 43,
+      "Meses": 3,
+      "SaldoPrazo": 393
+    },
+    {
+      "Indice": 1.22,
+      "Nome": "Recebimento de DHSV",
+      "PPU": 0,
+      "Valor": 0,
+      "Saldo": 72,
+      "SaldoRS": "80472,24",
+      "MediaPPU": 0,
+      "MediaValor": 0,
+      "DistribuicaoPPU": 0,
+      "DistribuicaoValor": 0,
+      "PPUTotal": 72,
+      "Meses": 3,
+      "SaldoPrazo": 393
+    },
+    {
+      "Indice": 1.23,
+      "Nome": "Manuten��o em Ferramentas diversas: Adaptador, Barra de Carga, Bomba Manual Enerpaq 10 kpsi, Bomba Pneum�tica Haskel 25 kpsi, Bore Protector, Centralizador, Clamp,  Coletor de BPV, Coletor de VGL, Defletor (Bloqueador), Destravador, E0tens�o, Joelho, Percursor, Polia Boca de Po�o, Porta Cabo e Redu��o",
+      "PPU": 0,
+      "Valor": 0,
+      "Saldo": 274,
+      "SaldoRS": "229000,98",
+      "MediaPPU": 0,
+      "MediaValor": 0,
+      "DistribuicaoPPU": 0,
+      "DistribuicaoValor": 0,
+      "PPUTotal": 274,
+      "Meses": 3,
+      "SaldoPrazo": 393
+    },
+    {
+      "Indice": 1.24,
+      "Nome": "Manuten��o em Ferramentas diversas - Aplicador, Desviador, Encamisador, Pescador, Rollie Boggie",
+      "PPU": 81,
+      "Valor": "81355,59",
+      "Saldo": 603,
+      "SaldoRS": "605647,17",
+      "MediaPPU": 27,
+      "MediaValor": "27118,53",
+      "DistribuicaoPPU": "0,01",
+      "DistribuicaoValor": "0,05",
+      "PPUTotal": 684,
+      "Meses": 3,
+      "SaldoPrazo": 393
+    },
+    {
+      "Indice": 1.25,
+      "Nome": "Manuten��o em Ferramentas diversas - Alojador de Corpo de Prova, Ferramenta deslocadora, Perfurador de Coluna",
+      "PPU": 3,
+      "Valor": "2259,9",
+      "Saldo": 73,
+      "SaldoRS": "54990,9",
+      "MediaPPU": 1,
+      "MediaValor": "753,3",
+      "DistribuicaoPPU": 0,
+      "DistribuicaoValor": 0,
+      "PPUTotal": 76,
+      "Meses": 3,
+      "SaldoPrazo": 393
+    },
+    {
+      "Indice": 1.26,
+      "Nome": "Manuten��o em Mangueira de di�metro 2�, comprimento 20 metros ou menos.",
+      "PPU": 0,
+      "Valor": 0,
+      "Saldo": 48,
+      "SaldoRS": 34488,
+      "MediaPPU": 0,
+      "MediaValor": 0,
+      "DistribuicaoPPU": 0,
+      "DistribuicaoValor": 0,
+      "PPUTotal": 48,
+      "Meses": 3,
+      "SaldoPrazo": 393
+    },
+    {
+      "Indice": 1.27,
+      "Nome": "Atendimento aos PVMs de Ferramentas",
+      "PPU": 2,
+      "Valor": 958,
+      "Saldo": 46,
+      "SaldoRS": 22034,
+      "MediaPPU": "0,67",
+      "MediaValor": "319,33",
+      "DistribuicaoPPU": 0,
+      "DistribuicaoValor": 0,
+      "PPUTotal": 48,
+      "Meses": 3,
+      "SaldoPrazo": 393
+    },
+    {
+      "Indice": 1.28,
+      "Nome": "Atendimento aos PVMs de Equipamentos",
+      "PPU": 25,
+      "Valor": "15966,75",
+      "Saldo": 515,
+      "SaldoRS": "328915,05",
+      "MediaPPU": "8,33",
+      "MediaValor": "5322,25",
+      "DistribuicaoPPU": 0,
+      "DistribuicaoValor": "0,01",
+      "PPUTotal": 540,
+      "Meses": 3,
+      "SaldoPrazo": 393
+    },
+    {
+      "Indice": 1.29,
+      "Nome": "Atendimento aos PVMs de Consum�veis",
+      "PPU": 0,
+      "Valor": 0,
+      "Saldo": 4320,
+      "SaldoRS": "574819,2",
+      "MediaPPU": 0,
+      "MediaValor": 0,
+      "DistribuicaoPPU": 0,
+      "DistribuicaoValor": 0,
+      "PPUTotal": 4320,
+      "Meses": 3,
+      "SaldoPrazo": 393
+    },
+    {
+      "Indice": 2.1,
+      "Nome": "PVM � Pedido de Verifica��o de Materiais",
+      "PPU": 12,
+      "Valor": "6106,68",
+      "Saldo": 168,
+      "SaldoRS": "85493,52",
+      "MediaPPU": 4,
+      "MediaValor": "2035,56",
+      "DistribuicaoPPU": 0,
+      "DistribuicaoValor": 0,
+      "PPUTotal": 180,
+      "Meses": 3,
+      "SaldoPrazo": 393
+    },
+    {
+      "Indice": 2.2,
+      "Nome": "VCMF � Verifica��o Concomitante de Material no Fornecedor",
+      "PPU": 0,
+      "Valor": 0,
+      "Saldo": 5,
+      "SaldoRS": "1465,65",
+      "MediaPPU": 0,
+      "MediaValor": 0,
+      "DistribuicaoPPU": 0,
+      "DistribuicaoValor": 0,
+      "PPUTotal": 5,
+      "Meses": 3,
+      "SaldoPrazo": 393
+    },
+    {
+      "Indice": 2.3,
+      "Nome": "VIMES � Verifica��o e Inspe��o de Materiais Egressos de Sondas",
+      "PPU": 1122,
+      "Valor": "83611,44",
+      "Saldo": 8238,
+      "SaldoRS": "613895,76",
+      "MediaPPU": 374,
+      "MediaValor": "27870,48",
+      "DistribuicaoPPU": "0,16",
+      "DistribuicaoValor": "0,05",
+      "PPUTotal": 9360,
+      "Meses": 3,
+      "SaldoPrazo": 393
+    },
+    {
+      "Indice": 2.4,
+      "Nome": "VCMUE � Verifica��o de Conformidade de Materiais Usados para Embarque",
+      "PPU": 23,
+      "Valor": "1762,72",
+      "Saldo": 7657,
+      "SaldoRS": "586832,48",
+      "MediaPPU": "7,67",
+      "MediaValor": "587,57",
+      "DistribuicaoPPU": 0,
+      "DistribuicaoValor": 0,
+      "PPUTotal": 7680,
+      "Meses": 3,
+      "SaldoPrazo": 393
+    },
+    {
+      "Indice": 2.5,
+      "Nome": "Servi�os de preserva��o, limpeza, manuten��o, desmontagem e montagem, e testes em equipamentos de Perfura��o",
+      "PPU": 5,
+      "Valor": 357,
+      "Saldo": 6435,
+      "SaldoRS": 459459,
+      "MediaPPU": "1,67",
+      "MediaValor": 119,
+      "DistribuicaoPPU": 0,
+      "DistribuicaoValor": 0,
+      "PPUTotal": 6440,
+      "Meses": 3,
+      "SaldoPrazo": 393
+    },
+    {
+      "Indice": 3.1,
+      "Nome": "Recebimento e identifica��o",
+      "PPU": 2026,
+      "Valor": "211169,98",
+      "Saldo": 27974,
+      "SaldoRS": "2915730,02",
+      "MediaPPU": "675,33",
+      "MediaValor": "70389,99",
+      "DistribuicaoPPU": "0,29",
+      "DistribuicaoValor": "0,14",
+      "PPUTotal": 30000,
+      "Meses": 3,
+      "SaldoPrazo": 393
+    },
+    {
+      "Indice": 3.2,
+      "Nome": "Expedi��o de elementos tubulares",
+      "PPU": 2318,
+      "Valor": "201341,48",
+      "Saldo": 33682,
+      "SaldoRS": "2925618,52",
+      "MediaPPU": "772,67",
+      "MediaValor": "67113,83",
+      "DistribuicaoPPU": "0,33",
+      "DistribuicaoValor": "0,13",
+      "PPUTotal": 36000,
+      "Meses": 3,
+      "SaldoPrazo": 393
+    },
+    {
+      "Indice": 3.3,
+      "Nome": "Movimenta��o de tubos, acess�rios e afins entre estaleiros",
+      "PPU": 658,
+      "Valor": "157577,84",
+      "Saldo": 11582,
+      "SaldoRS": "2773657,36",
+      "MediaPPU": "219,33",
+      "MediaValor": "52525,95",
+      "DistribuicaoPPU": "0,09",
+      "DistribuicaoValor": "0,1",
+      "PPUTotal": 12240,
+      "Meses": 3,
+      "SaldoPrazo": 393
+    },
+    {
+      "Indice": 4.1,
+      "Nome": "Manuten��o",
+      "PPU": 0,
+      "Valor": 0,
+      "Saldo": 300,
+      "SaldoRS": 91968,
+      "MediaPPU": 0,
+      "MediaValor": 0,
+      "DistribuicaoPPU": 0,
+      "DistribuicaoValor": 0,
+      "PPUTotal": 300,
+      "Meses": 3,
+      "SaldoPrazo": 393
+    },
+    {
+      "Indice": 4.2,
+      "Nome": "Preserva��o",
+      "PPU": 0,
+      "Valor": 0,
+      "Saldo": 200,
+      "SaldoRS": 91968,
+      "MediaPPU": 0,
+      "MediaValor": 0,
+      "DistribuicaoPPU": 0,
+      "DistribuicaoValor": 0,
+      "PPUTotal": 200,
+      "Meses": 3,
+      "SaldoPrazo": 393
+    },
+    {
+      "Indice": 4.3,
+      "Nome": "Teste hidrost�tico",
+      "PPU": 0,
+      "Valor": 0,
+      "Saldo": 50,
+      "SaldoRS": 45984,
+      "MediaPPU": 0,
+      "MediaValor": 0,
+      "DistribuicaoPPU": 0,
+      "DistribuicaoValor": 0,
+      "PPUTotal": 50,
+      "Meses": 3,
+      "SaldoPrazo": 393
+    },
+    {
+      "Indice": 4.4,
+      "Nome": "Teste de tra��o",
+      "PPU": 0,
+      "Valor": 0,
+      "Saldo": 100,
+      "SaldoRS": 91600,
+      "MediaPPU": 0,
+      "MediaValor": 0,
+      "DistribuicaoPPU": 0,
+      "DistribuicaoValor": 0,
+      "PPUTotal": 100,
+      "Meses": 3,
+      "SaldoPrazo": 393
+    },
+    {
+      "Indice": 4.5,
+      "Nome": "Solda El�trica ou Oxiacetileno",
+      "PPU": "48,44",
+      "Valor": "9545,87",
+      "Saldo": "651,56",
+      "SaldoRS": "128403,13",
+      "MediaPPU": "16,15",
+      "MediaValor": "3181,96",
+      "DistribuicaoPPU": "0,01",
+      "DistribuicaoValor": "0,01",
+      "PPUTotal": 700,
+      "Meses": 3,
+      "SaldoPrazo": 393
+    }
+    ],
+    "categorias":[  
+        {  
+           "categoria":"SERVIÇOS DE REPARO GERAL EM EQUIPAMENTOS DE MANOBRA E COMPLETAÇÃO, ARAME E AVALIAÇÃO",
+           "itens":[  
+            {  
+                "indice":"1.1",
+                "nome":"Montagem Conexão de modulados",
+                "preco":"1273",
+                "quantidade":"66",
+                "total":"84018"
+             },
+              {  
+                 "indice":"1.2",
+                 "nome":"Desmontagem Desconexão de modulados",
+                 "preco":"1273",
+                 "quantidade":"37",
+                 "total":"47101"
+              },
+              {  
+                 "indice":"1.4",
+                 "nome":"Manutenção  - TSR",
+                 "preco":"3832",
+                 "quantidade":"2",
+                 "total":"7664"
+              },
+              {  
+                 "indice":"1.7",
+                 "nome":"Manutenção - Sub de pressurização (shear-out; hidro trip).",
+                 "preco":"167.65",
+                 "quantidade":"1",
+                 "total":"167.65"
+              },
+              {  
+                 "indice":"1.8",
+                 "nome":"Condicionamento de Materiais",
+                 "preco":"708.07",
+                 "quantidade":"168",
+                 "total":"118955.76000000001"
+              },
+              {  
+                 "indice":"1.9",
+                 "nome":"Teste hidrostático",
+                 "preco":"898.13",
+                 "quantidade":"14",
+                 "total":"12573.82"
+              },
+              {  
+                 "indice":"1.10",
+                 "nome":"Manutenção em tampão de coluna de 2 3/8\" a 3 1/2",
+                 "preco":"1546.55",
+                 "quantidade":"13",
+                 "total":"20105.149999999998"
+              },
+              {  
+                 "indice":"1.11",
+                 "nome":"Manutenção em tampão de coluna de 4 1/2\" a 5 1/2, ANM e TH",
+                 "preco":"1970.74",
+                 "quantidade":"35",
+                 "total":"68975.9"
+              },
+              {  
+                 "indice":"1.12",
+                 "nome":"Manutenção em Válvula de Retenção para Coluna  de 2 3/8\" a 3 1/2\"",
+                 "preco":"828.54",
+                 "quantidade":"12",
+                 "total":"9942.48"
+              },
+              {  
+                 "indice":"1.13",
+                 "nome":"Manutenção em Válvula de Retenção para Coluna  de 4 1/2\" a 5 1/2\"",
+                 "preco":"829.04",
+                 "quantidade":"7",
+                 "total":"5803.28"
+              },
+              {  
+                 "indice":"1.15",
+                 "nome":"Manutenção em Insert Nipple para coluna de 4 1/2\" ou 5 1/2\"",
+                 "preco":"628.69",
+                 "quantidade":"4",
+                 "total":"2514.76"
+              },
+              {  
+                 "indice":"1.16",
+                 "nome":"Preparação em Mandril de Injeção Química Bolsa Lateral de 3 1/2\" a 5 1/2\"",
+                 "preco":"287.4",
+                 "quantidade":"2",
+                 "total":"574.8"
+              },
+              {  
+                 "indice":"1.17",
+                 "nome":"Preparação de Linha de Controle Simples, Dupla ou Tripla de 1/4\" a 3/8\"",
+                 "preco":"828.03",
+                 "quantidade":"2",
+                 "total":"1656.06"
+              },
+              {  
+                 "indice":"1.18",
+                 "nome":"Preenchimento com fluido de LC com MEG e outros fluidos por bobina",
+                 "preco":"638.67",
+                 "quantidade":"3",
+                 "total":"1916.0099999999998"
+              },
+              {  
+                 "indice":"1.19",
+                 "nome":"Manutenção em Válvula de Injeção BRV, Insertável",
+                 "preco":"479",
+                 "quantidade":"4",
+                 "total":"1916"
+              },
+              {  
+                 "indice":"1.24",
+                 "nome":"Manutenção em Ferramentas diversas - Aplicador, Desviador, Encamisador, Pescador, Rollie Boggie",
+                 "preco":"1004.39",
+                 "quantidade":"54",
+                 "total":"54237.06"
+              },
+              {  
+                 "indice":"1.25",
+                 "nome":"Manutenção em Ferramentas diversas - Alojador de Corpo de Prova, Ferramenta deslocadora, Perfurador de Coluna",
+                 "preco":"753.3",
+                 "quantidade":"3",
+                 "total":"2259.8999999999996"
+              },
+              {  
+                 "indice":"1.27",
+                 "nome":"Atendimento aos PVMs de Ferramentas",
+                 "preco":"479",
+                 "quantidade":"2",
+                 "total":"958"
+              },
+              {  
+                 "indice":"1.28",
+                 "nome":"Atendimento aos PVMs de Equipamentos",
+                 "preco":"638.67",
+                 "quantidade":"14",
+                 "total":"8941.38"
+              }
+     
+           ],
+           "ativo":true
+        },
+        {  
+           "categoria":"SERVIÇOS DE REPARO GERAL EM EQUIPAMENTOS DO ALMOXARIFADO E OFICINA DE POÇOS/SPO/SEP e  POÇOS/SPO/SP",
+           "itens":[  
+              {  
+                 "indice":"2.1",
+                 "nome":"PVM – Pedido de Verificação de Materiais",
+                 "preco":"508.89",
+                 "quantidade":"7",
+                 "total":"3562.23"
+              },
+              {  
+                 "indice":"2.2",
+                 "nome":"VCMF – Verificação Concomitante de Material no Fornecedor",
+                 "preco":"293.13",
+                 "quantidade":"0",
+                 "total":"0"
+              },
+              {  
+                 "indice":"2.3",
+                 "nome":"VIMES – Verificação e Inspeção de Materiais Egressos de Sondas",
+                 "preco":"74.52",
+                 "quantidade":"422",
+                 "total":"31447.44"
+              },
+              {  
+                 "indice":"2.4",
+                 "nome":"VCMUE – Verificação de Conformidade de Materiais Usados para Embarque",
+                 "preco":"76.64",
+                 "quantidade":"14",
+                 "total":"1072.96"
+              },
+              {  
+                 "indice":"2.5",
+                 "nome":"Serviços de preservação, limpeza, manutenção, desmontagem e montagem, e testes em equipamentos de Perfuração",
+                 "preco":"71.4",
+                 "quantidade":"3",
+                 "total":"214.20000000000002"
+              }
+     
+           ],
+           "ativo":true
+        },
+        {  
+           "categoria":"MOVIMENTAÇÃO DE MATERIAIS NA ÁREA DE TRIAGEM",
+           "itens":[  
+              {  
+                 "indice":"3.1",
+                 "nome":"Recebimento e identificação",
+                 "preco":"104.23",
+                 "quantidade":"1075",
+                 "total":"112047.25"
+              },
+              {  
+                 "indice":"3.2",
+                 "nome":"Expedição de elementos tubulares",
+                 "preco":"86.86",
+                 "quantidade":"887",
+                 "total":"77044.81999999999"
+              },
+              {  
+                 "indice":"3.3",
+                 "nome":"Movimentação de tubos, acessórios e afins entre estaleiros",
+                 "preco":"239.48",
+                 "quantidade":"555",
+                 "total":"132911.4"
+              }
+     
+           ],
+           "ativo":true
+        },
+        {  
+           "categoria":"SERVIÇOS DE REPARO GERAL EM EQUIPAMENTOS DE PESCARIA, ALARGAMENTO E TESTEMUNHAGEM",
+           "itens":[  
+              {  
+                 "indice":"4.5",
+                 "nome":"Solda Elétrica ou Oxiacetileno",
+                 "preco":"197.07",
+                 "quantidade":"36,238",
+                 "total":"7141.422659999999"
+              }
+           ],
+           "ativo":true
+        }
+     ],
+     "medicao": [
+        {
+        "data": "21/05/2019",
+        "num": "31",
+        "sst": "801/2019",
+        "poco": "NA",
+        "sonda": "NA",
+        "serie": "10.158.746",
+        "gerencia": "RF-SCA",
+        "indice": "1.8",
+        "qtd": "10",
+        "preco": "708,07",
+        "servico": "Condicionamento de Materiais",
+        "total": "7080,700000000001"
+        },
+        {
+        "data": "21/05/2019",
+        "num": "32",
+        "sst": "801/2019",
+        "poco": "NA",
+        "sonda": "NA",
+        "serie": "10.158.746",
+        "gerencia": "RF-SCA",
+        "indice": "1.8",
+        "qtd": "5",
+        "preco": "708,07",
+        "servico": "Condicionamento de Materiais",
+        "total": "3540,3500000000004"
+        },
+        {
+        "data": "21/05/2019",
+        "num": "38",
+        "sst": "801/018",
+        "poco": "NA",
+        "sonda": "NA",
+        "serie": "10.158.746",
+        "gerencia": "RF-SCA",
+        "indice": "1.8",
+        "qtd": "5",
+        "preco": "708,07",
+        "servico": "Condicionamento de Materiais",
+        "total": "3540,3500000000004"
+        },
+        {
+        "data": "21/05/2019",
+        "num": "47",
+        "sst": "N/A",
+        "poco": "0001",
+        "sonda": "AL-01",
+        "serie": "10.106.797  / 10.157.590",
+        "gerencia": "RF-SP",
+        "indice": "2.3",
+        "qtd": "2",
+        "preco": "74,52",
+        "servico": "VIMES – Verificação e Inspeção de Materiais Egressos de sondas",
+        "total": "149,04"
+        }
+    ],
+    "grafico1": [
+        {
+          "Inicio": "2019-05-21",
+          "DataMedicao": "2019-05-21",
+          "Diario": "18356,6889",
+          "DiferencaDias": 30, "Fator": 1.0462, "Orcado": "785000,00"
+        },
+        {
+          "Inicio": "2019-05-21",
+          "DataMedicao": "2019-05-22",
+          "Diario": "25408,07462",
+          "DiferencaDias": 30, "Fator": 1.0462, "Orcado": "785000,00"
+        },
+        {
+          "Inicio": "2019-05-21",
+          "DataMedicao": "2019-05-23",
+          "Diario": "19094,36052",
+          "DiferencaDias": 30, "Fator": 1.0462, "Orcado": "785000,00"
+        },
+        {
+          "Inicio": "2019-05-21",
+          "DataMedicao": "2019-05-24",
+          "Diario": "16089,12",
+          "DiferencaDias": 30, "Fator": 1.0462, "Orcado": "785000,00"
+        },
+        {
+          "Inicio": "2019-05-21",
+          "DataMedicao": "2019-05-25",
+          "Diario": "21230,22",
+          "DiferencaDias": 30, "Fator": 1.0462, "Orcado": "785000,00"
+        },
+        {
+          "Inicio": "2019-05-21",
+          "DataMedicao": "2019-05-26",
+          "Diario": "21266,56",
+          "DiferencaDias": 30, "Fator": 1.0462, "Orcado": "785000,00"
+        },
+        {
+          "Inicio": "2019-05-21",
+          "DataMedicao": "2019-05-27",
+          "Diario": "40706,76022",
+          "DiferencaDias": 30, "Fator": 1.0462, "Orcado": "785000,00"
+        },
+        {
+          "Inicio": "2019-05-21",
+          "DataMedicao": "2019-05-28",
+          "Diario": "30127,70766",
+          "DiferencaDias": 30, "Fator": 1.0462, "Orcado": "785000,00"
+        },
+        {
+          "Inicio": "2019-05-21",
+          "DataMedicao": "2019-05-29",
+          "Diario": "40986,88756",
+          "DiferencaDias": 30, "Fator": 1.0462, "Orcado": "785000,00"
+        },
+        {
+          "Inicio": "2019-05-21",
+          "DataMedicao": "2019-05-30",
+          "Diario": "8690,07318",
+          "DiferencaDias": 30, "Fator": 1.0462, "Orcado": "785000,00"
+        },
+        {
+          "Inicio": "2019-05-21",
+          "DataMedicao": "2019-05-31",
+          "Diario": "53447,74",
+          "DiferencaDias": 30, "Fator": 1.0462, "Orcado": "785000,00"
+        },
+        {
+          "Inicio": "2019-05-21",
+          "DataMedicao": "2019-06-01",
+          "Diario": "18594,43",
+          "DiferencaDias": 30, "Fator": 1.0462, "Orcado": "785000,00"
+        },
+        {
+          "Inicio": "2019-05-21",
+          "DataMedicao": "2019-06-02",
+          "Diario": "22766,11",
+          "DiferencaDias": 30, "Fator": 1.0462, "Orcado": "785000,00"
+        },
+        {
+          "Inicio": "2019-05-21",
+          "DataMedicao": "2019-06-03",
+          "Diario": "23537,89",
+          "DiferencaDias": 30, "Fator": 1.0462, "Orcado": "785000,00"
+        },
+        {
+          "Inicio": "2019-05-21",
+          "DataMedicao": "2019-06-04",
+          "Diario": "19702,78",
+          "DiferencaDias": 30, "Fator": 1.0462, "Orcado": "785000,00"
+        },
+        {
+          "Inicio": "2019-05-21",
+          "DataMedicao": "2019-06-05",
+          "Diario": "14267,06",
+          "DiferencaDias": 30, "Fator": 1.0462, "Orcado": "785000,00"
+        },
+        {
+          "Inicio": "2019-05-21",
+          "DataMedicao": "2019-06-06",
+          "Diario": "22901,65",
+          "DiferencaDias": 30, "Fator": 1.0462, "Orcado": "785000,00"
+        },
+        {
+          "Inicio": "2019-05-21",
+          "DataMedicao": "2019-06-07",
+          "Diario": "33620,32",
+          "DiferencaDias": 30, "Fator": 1.0462, "Orcado": "785000,00"
+        },
+        {
+          "Inicio": "2019-05-21",
+          "DataMedicao": "2019-06-08",
+          "Diario": "14310,33",
+          "DiferencaDias": 30, "Fator": 1.0462, "Orcado": "785000,00"
+        },
+        {
+          "Inicio": "2019-05-21",
+          "DataMedicao": "2019-06-09",
+          "Diario": "19968,9",
+          "DiferencaDias": 30, "Fator": 1.0462, "Orcado": "785000,00"
+        },
+        {
+          "Inicio": "2019-05-21",
+          "DataMedicao": "2019-06-10",
+          "Diario": "15328,57",
+          "DiferencaDias": 30, "Fator": 1.0462, "Orcado": "785000,00"
+        },
+        {
+          "Inicio": "2019-05-21",
+          "DataMedicao": "2019-06-11",
+          "Diario": "28454,14",
+          "DiferencaDias": 30, "Fator": 1.0462, "Orcado": "785000,00"
+        },
+        {
+          "Inicio": "2019-05-21",
+          "DataMedicao": "2019-06-12",
+          "Diario": "25745,27",
+          "DiferencaDias": 30, "Fator": 1.0462, "Orcado": "785000,00"
+        },
+        {
+          "Inicio": "2019-05-21",
+          "DataMedicao": "2019-06-13",
+          "Diario": "10848,94",
+          "DiferencaDias": 30, "Fator": 1.0462, "Orcado": "785000,00"
+        },
+        {
+          "Inicio": "2019-05-21",
+          "DataMedicao": "2019-06-14",
+          "Diario": "22627,39",
+          "DiferencaDias": 30, "Fator": 1.0462, "Orcado": "785000,00"
+        },
+        {
+          "Inicio": "2019-05-21",
+          "DataMedicao": "2019-06-15",
+          "Diario": "21171,48",
+          "DiferencaDias": 30, "Fator": 1.0462, "Orcado": "785000,00"
+        },
+        {
+          "Inicio": "2019-05-21",
+          "DataMedicao": "2019-06-16",
+          "Diario": "139632,68",
+          "DiferencaDias": 30, "Fator": 1.0462, "Orcado": "785000,00"
+        },
+        {
+          "Inicio": "2019-05-21",
+          "DataMedicao": "2019-06-17",
+          "Diario": "32344,88",
+          "DiferencaDias": 30, "Fator": 1.0462, "Orcado": "785000,00"
+        },
+        {
+          "Inicio": "2019-05-21",
+          "DataMedicao": "2019-06-18",
+          "Diario": "24734,35",
+          "DiferencaDias": 30, "Fator": 1.0462, "Orcado": "785000,00"
+        },
+        {
+          "Inicio": "2019-05-21",
+          "DataMedicao": "2019-06-19",
+          "Diario": "7790,63",
+          "DiferencaDias": 30, "Fator": 1.0462, "Orcado": "785000,00"
+        },
+        {
+          "Inicio": "2019-05-21",
+          "DataMedicao": "2019-06-20",
+          "Diario": "1970,74",
+          "DiferencaDias": 30, "Fator": 1.0462, "Orcado": "785000,00"
+        }
+      ]
+
+}
