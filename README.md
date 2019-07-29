@@ -7,22 +7,29 @@ Nesta forma, a página feita em Vue será estática e servida direto pelo Tomcat
 ## Executando
 Para rodar o ambiente de desenvolvimento, basta após clonar o repositório, executar:
 
+```
 npm install
-
+```
 ### Ambiente de Desenvolvimento
 
 Para rodar no ambiente de desenvolvimento
 
+```
 npm run dev
+```
 
 Na pasta "fake", se encontra os modelos da API, como serão servidas. Para emular basta executar:
 
+```
 json-server api.json
+```
 
-## Compilando para produção
+### Compilando para produção
 
 Após editar o arquivo "vue.config.js" como o path da pasta do servidor, basta executar o comando:
 
+```
 npm run build
+```
 
 Após isso, basta copiar a pasta "dist" e colar na pasta do Tomcat (Maker.commons)
