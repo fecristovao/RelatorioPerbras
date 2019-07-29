@@ -1,22 +1,21 @@
-
-
 <template>
 	<div>
 		{{ x }}
 		<br>
 		{{ diario }}
-		<canvas id="my-chart" ref="myChart"></canvas>
+		<canvas id="graficoProjecao" ref="myChart"></canvas>
 	</div>
 </template>
 <script>
     // Importa as bibliotecas
     import Chart from 'chart.js'
 	import Monetario from '@/mixins/Monetario.js'
+	import Graficos from '@/mixins/Graficos.js'
 	import {det, lusolve } from 'mathjs'
 	
 	export default {
 	    name: 'GraficoProjecao',
-	    mixins: [Monetario],
+	    mixins: [Monetario, Graficos],
 	    props: {
 	        dados: {
 	            type: Array,
@@ -25,11 +24,7 @@
 	    },
 	    data() {
 	        return {
-	            dias: [],
-	            x: [],
-	            diario: [],
-	            acumulado: [],
-	            bruto: [],
+				dadosProcessados: {},
 	            fator: 1.0462,
 	            azul: "rgb(54, 162, 235)",
 	            amarelo: "rgb(255, 205, 86)",
@@ -41,63 +36,31 @@
 	    },
 	    watch: {
 	        dados(val) {
-	            var i
-	            var dias = []
-	            var inicio = new Date(this.dados[0].Inicio+"T00:00:00-03:00")
-	            var diferenca = this.dados[0].DiferencaDias
-	            
-	            for(i=0;i<=diferenca;i++) {
-	                dias[i] = inicio.getDate()
-	                inicio.setDate(dias[i]+1)
-	            }
-	            this.dias = dias
-	
-	            var x = [];
-	            for(i=1;i<=dias.length;i++) {
-	                x.push(i)
-	            }
-	            this.x = x;
-	
-	            var diario = []
-	            for(i=0;i<val.length;i++) {
-	                diario[i] = this.ReaisToFloat(val[i].Diario)
-	            }
-	            
-	            if(val.length < x.length) {
-	                for(i=val.length;i<x.length;i++) {
-	                    diario.push(0)
-	                }
-	            }
-	            this.diario = diario
-	
-	            var acumulado = []
-	            acumulado[0] = diario[0]
-	
-	            for(i=1;i<diario.length;i++) {
-	                var total = 0.0
-	                var j
-	                for(j=0;j<=i;j++) {
-	                    total += diario[j]
-	                }
-	                acumulado[i] = total
-	            }
-	            this.acumulado = acumulado
-	
-	            var bruto = []
-	            for(i=1;i<diario.length;i++)
-	                bruto[i] = 0;
-	            for(i=0;i<diario.length;i++) {
-	                if(diario[i] > 0) {
-	                    bruto[i] = acumulado[i]
-	                }
-	            }
-                this.bruto = bruto
-                this.mes = this.dados[0].mes
-	            
+	            this.dadosProcessados = this.dadosGrafico(val)	            
 	            this.criaGrafico()
 	        }
 	    },
 	    computed: {
+			x() {
+				return this.dadosProcessados.x
+			},
+			
+			dias() {
+				return this.dadosProcessados.dias
+			},
+			
+			diario() {
+				return this.dadosProcessados.diario
+			},
+			
+			acumulado() {
+				return this.dadosProcessados.acumulado
+			},
+			
+			bruto() {
+				return this.dadosProcessados.bruto
+			},
+
 	        n() {
 	            var i;
 	            var total = 0.0
@@ -301,7 +264,7 @@
 	
 	     };
 	
-	           new Chart(document.getElementById('my-chart'), {
+	           new Chart(document.getElementById('graficoProjecao'), {
 	             type: 'bar',
 	             data: chartData,
 	             options: {

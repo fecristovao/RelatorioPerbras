@@ -8,11 +8,13 @@
 
         <br>
         <Projecao :dados="dados"></Projecao>
+       <!--<Diario :dados="dados"></Diario>-->
     </div>
 </template>
 
 <script>
 import Projecao from '@/components/GraficoProjecao.vue'
+//import Diario from '@/components/GraficoDiario.vue'
 import axios from 'axios'
 export default {
     components: {Projecao},
